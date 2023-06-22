@@ -23,7 +23,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.1);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/Sun.svg);
-  --switch-bg-color: rgba(160, 160, 160, 1);
+  /*--switch-bg-color: rgba(160, 160, 160, 1);*/
 }
 
 body * {
