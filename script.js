@@ -10,14 +10,13 @@ function toggleMode() {
 
   // Subistituir a imagem
   if (html.classList.contains("light")) {
-  } else {
     // se estiver em (light mode), altera a imagem para light.
     img.setAttribute("src", "./assets/avatar-light.png")
     img.setAttribute(
       "alt",
       "Foto de Mayk Brito sorrindo, usando óculus escuro e jaqueta preta com fundo degradê roxo com azul"
     )
-
+  } else {
     // se não estiver (light mode), manter a imagem principal.
     img.setAttribute("src", "./assets/avatar.png")
   }
